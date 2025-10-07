@@ -1,12 +1,13 @@
 from flask import Flask, request, jsonify
 import requests
+from flask_cors import CORS
 from bs4 import BeautifulSoup
 import json
 from Crypto.Cipher import AES
 import base64
 
 app = Flask(__name__)
-
+CORS(app)
 class VignanStudentScraper:
     def __init__(self):
         self.session = requests.Session()
