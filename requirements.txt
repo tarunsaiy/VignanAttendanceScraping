@@ -1,6 +1,4 @@
-Flask==2.3.3
-flask-cors==4.0.0
-Flask-Caching==2.0.2
+Flask==3.0.0
 requests==2.31.0
 beautifulsoup4==4.12.2
 pycryptodome==3.19.0
